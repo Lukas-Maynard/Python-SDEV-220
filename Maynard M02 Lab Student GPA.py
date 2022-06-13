@@ -4,7 +4,11 @@ Lukas Maynard
 SDEV - 220
 This will show if a student is in honors or on the Deans list based on their GPA
 """
+
 def studentInfo(name, gpa):
+    """
+    Prints out the name, gpa, and eligibility of Honor roll/Deans list.  
+    """
     print('-------------------------------')
     print('Name:', name)
     print('GPA:', gpa)
@@ -19,6 +23,7 @@ def studentInfo(name, gpa):
 print('\nFind out if a student is in Honors or on the Deans list.\
         \nEnter "ZZZ" as the student name to stop program')
 
+# The main program loop: user can stay or leave when wanted
 while True:
     name = str(input('Enter students first and last name: '))
     if name == 'ZZZ':
