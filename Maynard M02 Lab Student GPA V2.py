@@ -8,12 +8,18 @@ This versiona will let you store data about the students and search for students
 students = {}
 
 def addStudent():
+    """
+    Adds a student to a dictionary. Student name(key) is assigned with there GPA(value).
+    """
     name = str(input('Enter students first and last name: '))
     gpa = float(input('Enter student GPA: '))
     students[name] = gpa
     print('ADDED Student', name)
 
 def studentChoice():
+    """
+    Checks if chosen student is in the dictionary. Error message if not.
+    """
     choice = str(input('Choose student: '))
     if choice not in students.keys():
         print('## Your input was not a student name try again ##')
@@ -22,6 +28,9 @@ def studentChoice():
         studentInfo(choice)
 
 def studentInfo(name):
+    """
+    Prints out the name, gpa, and eligibility of Honor roll/Deans list.
+    """
     print('-------------------------------')
     print('Name:', name)
     print('GPA:', students[name])
@@ -36,6 +45,8 @@ def studentInfo(name):
 print('\nFind out if a student is in Honors or on the Deans list.\
         \nPress "a" to add student, "s" for student info, "l" for student list, "ZZZ" to stop program')
 
+# The main program loop: user can stay or leave when wanted 
+# User chooses what action to take: add student , print info, or list students.
 while True:
     menuInput = str(input('Enter menu choice: '))
     if menuInput == 'a':
