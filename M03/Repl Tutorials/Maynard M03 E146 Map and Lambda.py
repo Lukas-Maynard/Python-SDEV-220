@@ -1,5 +1,5 @@
 """
-Repl Tutorial 130. Exercise: Pets Everywhere
+Repl Tutorial 146. Exercise: Lambda Expressions
 Lukas Maynard
 SDEV - 220
 Practiced: map(), lambda functions, and sort()
