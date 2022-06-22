@@ -1,3 +1,9 @@
+"""
+Repl Tutorial 130. Exercise: Pets Everywhere
+Lukas Maynard
+SDEV - 220
+Practiced: map(), lambda functions, and sort()
+"""
 # One line lambda expression that prints a squares list
 mylist = [5,4,3]
 print(list(map(lambda i:i**2, mylist)))
