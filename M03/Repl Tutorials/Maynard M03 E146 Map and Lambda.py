@@ -4,7 +4,7 @@ Lukas Maynard
 SDEV - 220
 Practiced: map(), lambda functions, and sort()
 """
-# One line lambda expression that prints a squares list
+# One line lambda expression that prints a squared list
 mylist = [5,4,3]
 print(list(map(lambda i:i**2, mylist)))
 
