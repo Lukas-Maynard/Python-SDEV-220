@@ -25,4 +25,4 @@ conn = sa.create_engine(f'sqlite:///{path}')
 
 rows = conn.execute('SELECT * FROM books')
 for row in rows:
-    print(row)
+    print(row[0])
