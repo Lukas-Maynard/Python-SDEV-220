@@ -1,9 +1,6 @@
 import sqlite3
-#import sqlalchemy as sa
 
-# table called books with these fields: title (text), author (text), and year (integer).
 conn = sqlite3.connect('books.db')
-#conn = sa.create_engine('sqlite:///:memory:')
 
 c = conn.cursor()
 
