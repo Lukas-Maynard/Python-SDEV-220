@@ -4,3 +4,6 @@
 [submodule "M05/Linux Lab/m05-lab"]
 	path = M05/Linux Lab/m05-lab
 	url = https://gitlab.com/lmaynard8/m05-lab
+[submodule "M06/Django Tutorial/my-first-blog"]
+	path = M06/Django Tutorial/my-first-blog
+	url = https://github.com/Lukas-Maynard/my-first-blog.git
