@@ -7,3 +7,6 @@
 [submodule "M06/Django Tutorial/my-first-blog"]
 	path = M06/Django Tutorial/my-first-blog
 	url = https://github.com/Lukas-Maynard/my-first-blog.git
+[submodule "M07/Django Tutorial/my-first-blog"]
+	path = M07/Django Tutorial/my-first-blog
+	url = https://github.com/Lukas-Maynard/my-first-blog.git
