@@ -2,8 +2,4 @@
 Course: SDEV-220 Software Development with Python  
 I will be storing my code for this course in this repository.  
 
-### File names
-Most of my file names should contain these indicators.  
-    - My last name  
-    - The module it is from: "M(module number)"  
-    - Descriptive title  
+This course was hyper focused on using django instead of more important universal programming consepts.
